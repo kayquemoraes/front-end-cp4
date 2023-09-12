@@ -1,0 +1,106 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and style to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content section with flexbox */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.character{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style individual character cards */
+.character-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+    width: 30vh;
+    border-radius: 100%;
+}
+
+.character-card-name{
+    margin-top: 15px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* ... (Estilos anteriores) */
+
+/* Style the description section */
+.description {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+/* Style the reviews section */
+.reviews {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
